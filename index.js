@@ -12,7 +12,7 @@ function wrapAdjective(style="*") {
     return `You are ${style}${adjective}${style}!`
   }
 }
-
+let encouragingPromptFunction = wrapAdjective("!!!")
 const Calculator = {
   add: function(a,b) {
     return a + b;
